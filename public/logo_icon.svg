@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auraGradientIcon" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="pixelGradientIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+    <filter id="softGlowIcon" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(20, 10)">
+    <!-- Back Aura Path -->
+    <path d="M 25,0 L 55,50 L 55,80 L 40,80 L 40,60 L 15,60 L 5,80 L -10,80 Z" fill="url(#auraGradientIcon)" opacity="0.9" filter="url(#softGlowIcon)" />
+    
+    <!-- Inner Accent Flow -->
+    <path d="M 25,18 L 40,45 L 20,45 Z" fill="#FFFFFF" opacity="0.95" />
+    
+    <!-- "Pixel" Accents -->
+    <rect x="42" y="55" width="12" height="12" rx="2" fill="url(#pixelGradientIcon)" />
+    <rect x="56" y="41" width="12" height="12" rx="2" fill="url(#pixelGradientIcon)" opacity="0.8" />
+    <rect x="56" y="55" width="12" height="12" rx="2" fill="url(#pixelGradientIcon)" opacity="0.5" />
+  </g>
+</svg>
