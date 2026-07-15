@@ -1,0 +1,6 @@
+{
+  "name": "Aura Pixel Studio",
+  "description": "Premium, professional web design and development brand showcasing elite digital craftsmanship, case studies, and live client projects with a fully integrated client-admin management suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
